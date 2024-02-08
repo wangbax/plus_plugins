@@ -88,6 +88,7 @@ internal class MethodCallHandlerImpl(
             // } else {
             //     build["serialNumber"] = Build.SERIAL
             // }
+            build["serialNumber"] = ""
 
             result.success(build)
         } else {
